@@ -2,8 +2,8 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai"
 import {RiComputerLine} from "react-icons/ri"
 import { FaServer } from "react-icons/fa"
 import { MdDeveloperMode } from "react-icons/md"
-import { IService } from "./type"
-
+import { IService, ISkill } from "./type"
+import { BsCircleFill } from "react-icons/bs"
 
 
 export const services:IService[] = [
@@ -40,3 +40,87 @@ export const services:IService[] = [
     }
 ]
 
+export const languages:ISkill[] = [
+    {
+        name: 'React.js',
+        level: '80%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'JavaScript',
+        level: '80%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'React Native',
+        level: '50%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Node.js',
+        level: '80%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Express.js',
+        level: '60%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'MOngoDB',
+        level: '70%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Bootstrap',
+        level: '85%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Material-ui',
+        level: '70%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'HTML5',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'CSS',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+]
+export const tools:ISkill[] = [
+    {
+        name: 'Git',
+        level: '80%',
+        Icon: BsCircleFill
+    },
+    {
+        name: ' VS Code',
+        level: '80%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Heroku',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Netlify',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Firebase',
+        level: '95%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Github',
+        level: '95%',
+        Icon: BsCircleFill
+    },
+]

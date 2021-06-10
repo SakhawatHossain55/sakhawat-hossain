@@ -2,21 +2,29 @@ import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai"
 import { GoLocation } from "react-icons/go"
 import { GiTie } from "react-icons/gi"
 import React from "react"
+import {useTheme} from "next-themes"
 
 const Sidebar = () => {
+
+    const {theme, setTheme} = useTheme()
+
+    const changeTheme = () => {
+        setTheme(theme === 'light' ? 'dark' : 'light');
+    }
+
     return (
-        <div>
+        <>
             <img src="https://i.ibb.co/tcrCy4j/Shakib.jpg" alt="user Shakib" className="w-32 h-32 mx-auto rounded-full"/>
             <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
                 <span className="text-green">Sakhawat </span> Hossain
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer
             </p>
-            <a  className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center" href='' download='name' >
+            <a  className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full" href='' download='name' >
                 <GiTie className="w-6 h-6" /> Download Resume
             </a>
             {/* // social icon */}
-            <div className="flex justify-around my-5 text-green md:w-full mx-auto">
+            <div className="flex justify-around mx-auto my-5 text-green md:w-full">
                 <a href="">
                     <AiFillYoutube className="w-6 h-6 cursor-pointer" />
                 </a>
@@ -37,9 +45,11 @@ const Sidebar = () => {
                 <p className="my-2">01849687969/01811973362</p>
             </div>
             {/* Email Button */}
-            <button className=" bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-3 text-white my-2 focus:outline-none" onClick={() => window.open('mailto:sakhawathossain7969@gmail.com')}>Email Me</button>
-            <button className=" bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-3 text-white my-2">Toggle Theme</button>
-        </div>
+            <button className="w-8/12 px-3 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={() => window.open('mailto:sakhawathossain7969@gmail.com')}>Email Me</button>
+            <button
+            onClick={changeTheme}
+            className="w-8/12 px-3 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">Toggle Theme</button>
+        </>
     )
 }
 
