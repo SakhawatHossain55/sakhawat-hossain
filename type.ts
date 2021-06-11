@@ -1,3 +1,4 @@
+import { type } from "os";
 import { IconType } from "react-icons";
 
 
@@ -12,3 +13,14 @@ export interface ISkill {
     level: string
     Icon: IconType
 }
+
+export interface IProject {
+    name: string;
+    image_path: string;
+    deployed: string;
+    github_url: string[];
+    category: Category[];
+    key_type: string[];
+}
+
+export type Category = 'react' | 'node' | 'express' | 'JavaScript' | 'redux'

@@ -1,7 +1,12 @@
 const project = () => {
     return (
         <div className="p-4">
-            project page
+            <nav>Navbar</nav>
+            <div>
+                {
+                    
+                }
+            </div>
         </div>
     )
 }

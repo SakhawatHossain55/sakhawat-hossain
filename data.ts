@@ -2,7 +2,7 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai"
 import {RiComputerLine} from "react-icons/ri"
 import { FaServer } from "react-icons/fa"
 import { MdDeveloperMode } from "react-icons/md"
-import { IService, ISkill } from "./type"
+import { IProject, IService, ISkill } from "./type"
 import { BsCircleFill } from "react-icons/bs"
 
 
@@ -122,5 +122,62 @@ export const tools:ISkill[] = [
         name: 'Github',
         level: '95%',
         Icon: BsCircleFill
+    },
+]
+
+export const projects:IProject[] = [
+    {
+        name: 'COVID Tracker',
+        description: 'This app shows a statistical view about corona virus the world',
+        image_path: './images/1583952355.1997.jpg',
+        deployed_url: 'https://laundry-service-48e19.web.app/',
+        github_url: 'https://github.com/SakhawatHossain55/GoWash',
+        category: ['react'],
+        key_techs: ['React.js', 'javascript', 'material-ui'],
+    },
+    {
+        name: 'COVID Tracker',
+        description: 'This app shows a statistical view about corona virus the world',
+        image_path: './images/1583952355.1997.jpg',
+        deployed_url: 'https://laundry-service-48e19.web.app/',
+        github_url: 'https://github.com/SakhawatHossain55/GoWash',
+        category: ['react'],
+        key_techs: ['React.js', 'javascript', 'material-ui'],
+    },
+    {
+        name: 'COVID Tracker',
+        description: 'This app shows a statistical view about corona virus the world',
+        image_path: './images/1583952355.1997.jpg',
+        deployed_url: 'https://laundry-service-48e19.web.app/',
+        github_url: 'https://github.com/SakhawatHossain55/GoWash',
+        category: ['react'],
+        key_techs: ['React.js', 'javascript', 'material-ui'],
+    },
+    {
+        name: 'COVID Tracker',
+        description: 'This app shows a statistical view about corona virus the world',
+        image_path: './images/1583952355.1997.jpg',
+        deployed_url: 'https://laundry-service-48e19.web.app/',
+        github_url: 'https://github.com/SakhawatHossain55/GoWash',
+        category: ['react'],
+        key_techs: ['React.js', 'javascript', 'material-ui'],
+    },
+    {
+        name: 'COVID Tracker',
+        description: 'This app shows a statistical view about corona virus the world',
+        image_path: './images/1583952355.1997.jpg',
+        deployed_url: 'https://laundry-service-48e19.web.app/',
+        github_url: 'https://github.com/SakhawatHossain55/GoWash',
+        category: ['react'],
+        key_techs: ['React.js', 'javascript', 'material-ui'],
+    },
+    {
+        name: 'COVID Tracker',
+        description: 'This app shows a statistical view about corona virus the world',
+        image_path: './images/1583952355.1997.jpg',
+        deployed_url: 'https://laundry-service-48e19.web.app/',
+        github_url: 'https://github.com/SakhawatHossain55/GoWash',
+        category: ['react'],
+        key_techs: ['React.js', 'javascript', 'material-ui'],
     },
 ]
