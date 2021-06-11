@@ -150,7 +150,7 @@ export const projects:IProject[] = [
         image_path: './images/1583952355.1997.jpg',
         deployed_url: 'https://fast-repair-c13c2.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/fast-repair',
-        category: ['react'],
+        category: ['JavaScript'],
         key_techs: ['React.js', 'javascript', 'material-ui'],
     },
     {
