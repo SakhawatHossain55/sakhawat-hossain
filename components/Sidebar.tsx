@@ -14,7 +14,14 @@ const Sidebar = () => {
 
     return (
         <>
-            <img src="https://i.ibb.co/tcrCy4j/Shakib.jpg" alt="user Shakib" className="w-32 h-32 mx-auto rounded-full"/>
+            <img src="https://i.ibb.co/tcrCy4j/Shakib.jpg" 
+                alt="user Shakib" 
+                className="mx-auto rounded-full"
+                height="128px"
+                width="128px"
+                layout="intrinsic"
+                quality="100"
+            />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
                 <span className="text-green">Sakhawat </span> Hossain
             </h3>

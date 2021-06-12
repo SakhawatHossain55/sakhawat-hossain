@@ -129,7 +129,7 @@ export const projects:IProject[] = [
     {
         name: 'Go Wash',
         description: 'This app shows a statistical view about corona virus the world',
-        image_path: './images/1583952355.1997.jpg',
+        image_path: 'https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg',
         deployed_url: 'https://laundry-service-48e19.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/GoWash',
         category: ['react'],
@@ -138,7 +138,7 @@ export const projects:IProject[] = [
     {
         name: 'Chart App',
         description: 'This app shows a statistical view about corona virus the world',
-        image_path: './images/1583952355.1997.jpg',
+        image_path: 'https://cdn.pixabay.com/photo/2018/01/05/16/24/rose-3063284_960_720.jpg',
         deployed_url: 'https://chat-app-team-78.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/chat-app',
         category: ['redux'],
@@ -147,7 +147,7 @@ export const projects:IProject[] = [
     {
         name: 'Fast Repair',
         description: 'This app shows a statistical view about corona virus the world',
-        image_path: './images/1583952355.1997.jpg',
+        image_path: 'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_960_720.jpg',
         deployed_url: 'https://fast-repair-c13c2.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/fast-repair',
         category: ['JavaScript'],
@@ -156,7 +156,7 @@ export const projects:IProject[] = [
     {
         name: 'Daily Mart',
         description: 'This app shows a statistical view about corona virus the world',
-        image_path: './images/1583952355.1997.jpg',
+        image_path: 'https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729514_960_720.jpg',
         deployed_url: 'https://fresh-valley-e1a56.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/daily-mart',
         category: ['react'],
@@ -165,7 +165,7 @@ export const projects:IProject[] = [
     {
         name: 'Doctors Portal',
         description: 'This app shows a statistical view about corona virus the world',
-        image_path: './images/1583952355.1997.jpg',
+        image_path: 'https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509_960_720.jpg',
         deployed_url: 'https://doctors-portal-ac941.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/doctors-portal-main',
         category: ['react'],
@@ -174,7 +174,7 @@ export const projects:IProject[] = [
     {
         name: 'Panda Commerce',
         description: 'This app shows a statistical view about corona virus the world',
-        image_path: './images/1583952355.1997.jpg',
+        image_path: 'https://cdn.pixabay.com/photo/2013/07/30/12/25/bouquet-168831_960_720.jpg',
         deployed_url: 'https://sakhawathossain55.github.io/panda-commerce-boostrtrap/',
         github_url: 'https://github.com/SakhawatHossain55/panda-commerce-boostrtrap',
         category: ['react'],
