@@ -1,28 +1,30 @@
 import Bar from "../components/Bar"
 import { languages, tools } from "../data"
-console.log(languages);
+import {motion} from "framer-motion"
+import { fadeInpUp } from "../animations"
 
 const resume = () => {
+
     return (
         <div className="px-6 py-2">
             {/* // Education & exp */}
 
             <div className="grid gap-6 md:grid-cols-2">
-                <div>
+                <motion.div variants={fadeInpUp} initial='initial' animate='animate'>
                     <h5 className="my-3 font-bold type-2xl">Education</h5>
                     <div>
                         <h5 className="my-2 text-xl font-bold">Degree 1st year</h5>
                         <p className="font-semibold">GOVERNMENT MUJIB COLLEGE(2019-2024)</p>
                         <p className="my-3">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
                     </div>
-                </div>
+                </motion.div>
                 <div>
                     <h5 className="my-3 font-bold type-2xl">Education</h5>
-                    <div>
+                    <motion.div variants={fadeInpUp} initial='initial' animate='animate'>
                         <h5 className="my-2 text-xl font-bold">Software Engineer</h5>
                         <p className="font-semibold">TCS(2019-2024)</p>
                         <p className="my-3">I don't know why I am doing this job.</p>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
