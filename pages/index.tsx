@@ -2,12 +2,18 @@
 import { motion } from 'framer-motion'
 import ServiceCard from '../components/ServiceCard'
 import {services} from '../data'
-import { fadeInpUp, stagger } from '../animations'
+import { fadeInpUp, routeAnimation, stagger } from '../animations'
 
 const index = () => {
   
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div 
+      className="flex flex-col flex-grow px-6 pt-1" 
+      variants={routeAnimation} 
+      initial="initial" 
+      animate="animate"
+      exit="exit"
+      >
       <h5 className='my-3 font-medium'>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</h5>
       <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
         <h4 
@@ -34,7 +40,7 @@ const index = () => {
             )) }
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
