@@ -15,6 +15,7 @@ export interface ISkill {
 }
 
 export interface IProject {
+    id: number;
     name: string;
     image_path: string;
     deployed: string;

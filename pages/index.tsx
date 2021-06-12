@@ -1,8 +1,8 @@
-// import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
 import { motion } from 'framer-motion'
 import ServiceCard from '../components/ServiceCard'
 import {services} from '../data'
 import { fadeInpUp, routeAnimation, stagger } from '../animations'
+import { GetServerSidePropsContext } from 'next'
 
 const index = () => {
   
@@ -47,22 +47,22 @@ const index = () => {
 export default index
 
 
-// export const getServerSideProps = async (
-//   context:GetServerSidePropsContext
-//   ) => {
-//   //calculation
+export const getServerSideProp = async (
+  context:GetServerSidePropsContext
+  ) => {
+  //calculation
 
-//   const res = await fetch('http://localhost:3000/api/services')
-//   const data = await res.json()
+  const res = await fetch('http://localhost:3000/api/services')
+  const data = await res.json()
 
-//   console.log("server", services);
+  console.log("server", services);
   
-//   return {
-//     props:{
-//       services: data.services
-//     }
-//   }
-// }
+  return {
+    props:{
+      services: data.services
+    }
+  }
+}
 
 // export const getStatisticsProps = async (
 //   context:GetStaticPropsContext

@@ -10,6 +10,7 @@ const project = () => {
 
     const [projects, setProjects] = useState(projectsData)
     const [active, setActive] = useState("all");
+    const [showDetails, setShowDetails] = useState<number | null>(null)
 
     const handlerFilterCategory = (category: Category | 'all') => {
         if(category === 'all') {
@@ -47,7 +48,7 @@ const project = () => {
                         variants={fadeInpUp}
                         key={project.name}
                         className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 dark:bg-dark-200 lg:col-span-4">
-                        <ProjectCard project={project} />
+                        <ProjectCard project={project} showDetails={showDetails}  setShowDetails={setShowDetails} />
                     </motion.div>
                 ))}
             </motion.div>

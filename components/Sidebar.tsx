@@ -27,8 +27,8 @@ const Sidebar = () => {
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Web Developer
             </p>
-            <a  className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href='' download='name' >
-                <GiTie className="w-6 h-6" /> Download Resume
+            <a  className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href='./images/Sakhawat-Hossain__Resume.pdf' download='Resume.pdf' >
+                <GiTie className="w-6 h-6" /> <span>Download Resume</span>
             </a>
             {/* // social icon */}
             <div className="flex justify-around mx-auto my-5 text-green md:w-full">

@@ -127,6 +127,7 @@ export const tools:ISkill[] = [
 
 export const projects:IProject[] = [
     {
+        id: 1,
         name: 'Go Wash',
         description: 'This app shows a statistical view about corona virus the world',
         image_path: 'https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg',
@@ -136,6 +137,7 @@ export const projects:IProject[] = [
         key_techs: ['React.js', 'javascript', 'material-ui'],
     },
     {
+        id: 2,
         name: 'Chart App',
         description: 'This app shows a statistical view about corona virus the world',
         image_path: 'https://cdn.pixabay.com/photo/2018/01/05/16/24/rose-3063284_960_720.jpg',
@@ -145,6 +147,7 @@ export const projects:IProject[] = [
         key_techs: ['React.js', 'javascript', 'material-ui'],
     },
     {
+        id: 3,
         name: 'Fast Repair',
         description: 'This app shows a statistical view about corona virus the world',
         image_path: 'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_960_720.jpg',
@@ -154,6 +157,7 @@ export const projects:IProject[] = [
         key_techs: ['React.js', 'javascript', 'material-ui'],
     },
     {
+        id: 4,
         name: 'Daily Mart',
         description: 'This app shows a statistical view about corona virus the world',
         image_path: 'https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729514_960_720.jpg',
@@ -163,6 +167,7 @@ export const projects:IProject[] = [
         key_techs: ['React.js', 'javascript', 'material-ui'],
     },
     {
+        id: 5,
         name: 'Doctors Portal',
         description: 'This app shows a statistical view about corona virus the world',
         image_path: 'https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509_960_720.jpg',
@@ -172,6 +177,7 @@ export const projects:IProject[] = [
         key_techs: ['React.js', 'javascript', 'material-ui'],
     },
     {
+        id: 6,
         name: 'Panda Commerce',
         description: 'This app shows a statistical view about corona virus the world',
         image_path: 'https://cdn.pixabay.com/photo/2013/07/30/12/25/bouquet-168831_960_720.jpg',
