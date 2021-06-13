@@ -81,7 +81,7 @@ const ProjectCard: FunctionComponent<{
                     >
                         {
                             key_techs.map(tech =><span key={tech}
-                            className="px-2 py-1 bg-gray-200 rounded dark:bg-dark-200"
+                            className="px-2 py-1 mb-2 bg-gray-200 rounded dark:bg-dark-200"
                             > {tech} </span>)
                         }
                     </motion.div>
