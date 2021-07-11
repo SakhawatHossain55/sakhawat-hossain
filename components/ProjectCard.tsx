@@ -15,7 +15,6 @@ const ProjectCard: FunctionComponent<{
     project: {
         name, 
         image_path,
-        category, 
         deployed_url,
         github_url, 
         key_techs,
@@ -54,13 +53,17 @@ const ProjectCard: FunctionComponent<{
                     </motion.div>
                     <motion.div variants={fadeInpUp} className="flex justify-center my-4 space-x-3">
                         <a 
+                            target="_blank"
                             href={github_url}
                             className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"    
                         ><AiFillGithub /><span>Github</span></a>
                         <a 
+                            target="_blank"
                             href={deployed_url}
                             className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
-                        ><AiFillProject /><span>Project</span></a>
+                            ><AiFillProject />
+                            <span>Project</span>
+                        </a>
 
                     </motion.div>
                 </motion.div>

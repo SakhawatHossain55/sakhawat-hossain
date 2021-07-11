@@ -190,7 +190,7 @@ export const projects:IProject[] = [
         id: 5,
         name: 'Fast_Ride',
         description: 'A single-page web app with a dashboard where users can request a ride by selecting their pick-up location and their destination location and date.',
-        image_path: '/images/fast_repair01.PNG',
+        image_path: '/images/fast_ride01.PNG',
         deployed_url: 'https://urban-riders-9bf60.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/fast-ride',
         category: ['react'],
