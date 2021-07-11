@@ -31,13 +31,13 @@ const Sidebar = () => {
             </a>
             {/* // social icon */}
             <div className="flex justify-around mx-auto my-5 text-green md:w-full">
-                <a target="_blank" href="https://my-protfolio-a7e1b.web.app/project">
+                <a target="_blank" href="https://my-protfolio-a7e1b.web.app">
                     <AiFillYoutube className="w-6 h-6 cursor-pointer" />
                 </a>
                 <a target="_blank" href="https://github.com/SakhawatHossain55">
                     <AiFillGithub className="w-6 h-6 cursor-pointer" />
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/sakhawat-hossain-95a57b203/">
+                <a target="_blank" href="https://www.linkedin.com/in/sakhawat-hossain-95a57b203">
                     <AiFillLinkedin className="w-6 h-6 cursor-pointer" />
                 </a>
             </div>
@@ -48,7 +48,7 @@ const Sidebar = () => {
                     <span>Dhaka Bangladesh</span>
                 </div>
                 <p className="my-2">sakhawathossain7969@gmail.com</p>
-                <p className="my-2">01849687969/01811973362</p>
+                <p className="my-2">01849687969</p>
             </div>
             {/* Email Button */}
             <button className="w-8/12 px-3 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={() => window.open('mailto:sakhawathossain7969@gmail.com')}>Email Me</button>

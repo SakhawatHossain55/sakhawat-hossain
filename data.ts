@@ -77,6 +77,11 @@ export const languages:ISkill[] = [
         Icon: BsCircleFill
     },
     {
+        name: 'Tailwind CSS',
+        level: '75%',
+        Icon: BsCircleFill
+    },
+    {
         name: 'Material-ui',
         level: '70%',
         Icon: BsCircleFill
@@ -121,6 +126,11 @@ export const tools:ISkill[] = [
     {
         name: 'Github',
         level: '95%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'vercel',
+        level: '60%',
         Icon: BsCircleFill
     },
 ]
