@@ -150,7 +150,7 @@ export const projects:IProject[] = [
         id: 3,
         name: 'Fast Repair',
         description: 'A full-stack single-page web application where customers can book a service for repairing their smart phone by pay the fees. The website contains a separate dashboard for admin and user.',
-        image_path: '/images/fast_repair01.PNG',
+        image_path: '/images/fast_repair.PNG',
         deployed_url: 'https://fast-repair-c13c2.web.app/',
         github_url: 'https://github.com/SakhawatHossain55/fast-repair',
         category: ['JavaScript'],
