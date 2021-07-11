@@ -64,19 +64,3 @@ export const getServerSideProp = async (
   }
 }
 
-// export const getStatisticsProps = async (
-//   context:GetStaticPropsContext
-//   ) => {
-//   //calculation
-
-//   const res = await fetch('http://localhost:3000/api/services')
-//   const data = await res.json()
-
-//   console.log("server", services);
-  
-//   return {
-//     props:{
-//       services: data.services
-//     }
-//   }
-// }

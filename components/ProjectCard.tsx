@@ -37,11 +37,7 @@ const ProjectCard: FunctionComponent<{
                 height="150"
                 layout="responsive"
             />
-            {/* <img 
-                src={image_path} alt={name} 
-                className="cursor-pointer" 
-                onClick={() => setShowDetails(true)} 
-            /> */}
+
             <p className='my-2 text-center'>{name}</p>
 
             {showDetails === id && (
@@ -52,7 +48,7 @@ const ProjectCard: FunctionComponent<{
                     animate="animate"
                 >
                     <motion.div variants={fadeInpUp} className="border-4 border-gray-100">
-                        <img src={image_path} 
+                        <Image width="" height="" src={image_path} 
                             alt={name} 
                         />
                     </motion.div>
