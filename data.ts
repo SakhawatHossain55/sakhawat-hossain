@@ -47,6 +47,11 @@ export const languages:ISkill[] = [
         Icon: BsCircleFill
     },
     {
+        name: 'Next.js',
+        level: '70%',
+        Icon: BsCircleFill
+    },
+    {
         name: 'JavaScript',
         level: '80%',
         Icon: BsCircleFill

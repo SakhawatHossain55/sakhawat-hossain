@@ -30,6 +30,9 @@ const resume = () => {
                         <h5 className="my-2 text-xl font-bold">Software Engineer</h5>
                         <p className="font-semibold">TCS(2019-2024)</p>
                         <p className="my-3">I don't know why I am doing this job.</p>
+                        <br />
+                        <h5 className="my-3 text-2xl font-bold">LANGUAGES</h5>
+                        <p className="my-3">Bangla (Native), English (Fluent).</p>
                     </motion.div>
                 </div>
             </div>
