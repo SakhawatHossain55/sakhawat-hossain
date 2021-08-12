@@ -105,7 +105,6 @@ export default function Home() {
             </label>
             <textarea
               name="message"
-              rows="5"
               {...register("message", {
                 required: {
                   value: true,
