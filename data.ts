@@ -48,7 +48,7 @@ export const languages:ISkill[] = [
     },
     {
         name: 'Next.js',
-        level: '70%',
+        level: '80%',
         Icon: BsCircleFill
     },
     {
@@ -83,7 +83,7 @@ export const languages:ISkill[] = [
     },
     {
         name: 'Tailwind CSS',
-        level: '75%',
+        level: '85%',
         Icon: BsCircleFill
     },
     {
@@ -135,7 +135,7 @@ export const tools:ISkill[] = [
     },
     {
         name: 'vercel',
-        level: '60%',
+        level: '90%',
         Icon: BsCircleFill
     },
 ]

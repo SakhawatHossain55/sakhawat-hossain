@@ -34,6 +34,7 @@ const Navbar = () => {
         if (pathname === '/') setActiveItem('About')
         if (pathname === '/project') setActiveItem('Project')
         if (pathname === '/resume') setActiveItem('Resume')
+        if (pathname === '/contact') setActiveItem('Contact')
     }, [])
 
     return (
@@ -45,6 +46,7 @@ const Navbar = () => {
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="About" route='/' />
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Project" route='/project' />
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Resume" route='/resume' />
+                <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Contact" route='/contact' />
             </div>
         </div>
     )
