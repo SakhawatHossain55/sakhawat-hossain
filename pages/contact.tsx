@@ -1,38 +1,47 @@
+import "animate.css/animate.min.css";
 import { useForm } from "react-hook-form";
 import axios, { AxiosRequestConfig } from "axios";
 import { useRouter } from "next/router";
+import { cssTransition, toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+
+const zoomIn = cssTransition({
+    enter: "animate__animated animate__zoomIn",
+    exit: "animate__animated animate__zoomIn",
+  });
 
 export default function Home() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
   const router = useRouter();
-  async function onSubmitForm(values) {
-    
+  async function onSubmitForm(values: any): Promise<void> {
     let config: AxiosRequestConfig = {
-      method: 'post',
+      method: "post",
       url: `/api/contact`,
       headers: {
-        'Content-Type': 'application/json'
+        "Content-Type": "application/json",
       },
       data: values,
-      
     };
- 
-    
+
     try {
-      const response = await axios(config)
-      console.log(response);
-      if(response.status == 200) {
-        console.log('Success');
+      const response = await axios(config);
+
+      if (response.status === 200) {
+        toast.success("Your mail submitted!", {
+          position: toast.POSITION.TOP_CENTER,
+          transition: zoomIn,
+        });
         reset();
-        router.push('/')
       }
-    } catch (err) {}
-    
+    } catch (err) {
+      toast.error(err.message);
+    }
   }
 
   return (
     <div className="max-w-full p-8 m-8 bg-white rounded-md">
+        <ToastContainer />
         <form
           onSubmit={handleSubmit(onSubmitForm)}
           className="grid grid-cols-1 gap-y-6"
@@ -137,3 +146,9 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "env": {
+    "USER_EMAIL": "sakhawathossain7969@gmail.com",
+    "APP_PASSWORD": "ariwnrxcrckdsycr"
+  },
+  "build": {
+    "env": {
+      "USER_EMAIL": "sakhawathossain7969@gmail.com",
+      "APP_PASSWORD": "ariwnrxcrckdsycr"
+    }
+  }
+}

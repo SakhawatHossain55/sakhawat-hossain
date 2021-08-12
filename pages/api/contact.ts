@@ -7,12 +7,12 @@ export default async function handler(req, res) {
     port: 465,
     secure: true,
     auth: {
-      user: process.env.user,
-      pass: process.env.pass
+      user: process.env.USER_EMAIL,
+      pass: process.env.APP_PASSWORD
     }
   })
-console.log(process.env.user);
-console.log(process.env.pass);
+console.log(process.env.USER_EMAIL);
+console.log(process.env.APP_PASSWORD);
   try {
     const emailRes = await transporter.sendMail({
       from: email,
