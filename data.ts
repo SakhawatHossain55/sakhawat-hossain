@@ -11,7 +11,7 @@ export const services:IService[] = [
     {
         Icon: RiComputerLine,
         title: 'Frontend Development',
-        about: 'I can build a beautiful and scalable SPA using <b>HTML</b>, <b>CSS</b> and <b>React.js</b>',
+        about: 'I can build a beautiful and scalable Project using <b>HTML</b>, <b>CSS</b> and <b>React.js</b>',
     },
     {
         Icon: FaServer,
@@ -26,17 +26,12 @@ export const services:IService[] = [
     {
         Icon: MdDeveloperMode,
         title: 'Competitive Coder',
-        about: 'A daily problem solver in <b>HackerRank</b> & <b>Leet Code</b>',
-    },
-    {
-        Icon: AiOutlineAntDesign,
-        title: 'UI/UX designer',
-        about: 'Stunning user interface designer using <b>Figma</b> & <b>Framer</b>',
+        about: 'A daily problem solver in <b>FreeCodeCamp</b> & <b>HackerRank</b>',
     },
     {
         Icon: RiComputerLine,
         title: 'Whatever',
-        about: 'I can develop robust REST API using <b>django-rest-api</b> & <b>Node API</b>',
+        about: 'I can develop robust REST API using <b>NodeJs</b> <b>Express.js</b> & <b>>MOngoDB</b>',
     }
 ]
 
