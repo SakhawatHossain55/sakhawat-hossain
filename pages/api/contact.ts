@@ -11,8 +11,6 @@ export default async function handler(req, res) {
       pass: process.env.APP_PASSWORD
     }
   })
-console.log(process.env.USER_EMAIL);
-console.log(process.env.APP_PASSWORD);
   try {
     const emailRes = await transporter.sendMail({
       from: email,
@@ -24,7 +22,6 @@ console.log(process.env.APP_PASSWORD);
       <p><strong>Message: </strong>${message}</p><br />
       `
     })
-    console.log('Message Sent');
   } catch (err) {
     console.log(err.message);
   }

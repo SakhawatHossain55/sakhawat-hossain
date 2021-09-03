@@ -137,7 +137,7 @@ export default function Home() {
           <div>
             <button
               type="submit"
-              className="inline-flex px-10 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow justify-content hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              className="px-16 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none"
             >
               Submit
             </button>
